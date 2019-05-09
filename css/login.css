@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login{
+    height: 650px;
+    position: relative;
+}
+
+.login .bgc{
+    width: auto;
+    height: 650px;
+}
+
+.login .pic{
+    width: 100%;
+    height: 100%;
+} 
+
+.login .content{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top:75px;
+}
+
+.login .logo .f1{
+    width: 341px;
+    height: 124px;
+    background: url(../img/login-logo.png)no-repeat;
+    margin: 0 auto;
+}
+
+.login .massege{
+    width: 584px;
+    height: 316px;
+    /* background-color: red; */
+    margin: 60px auto;
+}
+
+.login .nav{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    background-color:  rgba(17,17,17,0.5);
+}
+
+.login .nav .col-md-4{
+    width: 194.4px;
+    height: 56px;
+}
+
+.login .col-md-4:hover a{
+    color: #fff;
+}
+
+.login .col-md-4:visited{
+    background-color: #fff;
+}
+
+.login .col-md-4:visited a{
+    color: #000;
+}
+.login .nav a{ 
+    padding: 60px;
+    line-height: 56px;
+    font-size: 18px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+.login .signin{
+    width: 100%;
+    height: 260px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.login .loginin{
+    width: 100%;
+    height: 260px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.login .btnsign{
+    width: 80px;
+}
+
+.login .load{
+    width: 100%;
+    height: 260px;
+}
+
+.login .load>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

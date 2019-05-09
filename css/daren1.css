@@ -1,0 +1,229 @@
+.tend {
+    margin: 50px auto;
+    width: 1260px;
+    height: 2400px;
+    background-color: #ededef;
+}
+.tend .w{
+    width: 926px;
+    height: 1999px;
+    margin: 0 auto;
+}
+
+.tend .nav1{
+    width: 100%;
+    height: 97px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.tend .nav1>.ul1{
+    padding-top: 30px;
+    margin-left: 40px;
+    
+}
+
+.tend .nav1 .choice{
+    width: 136px;
+    height: 36px;
+    text-align: center;
+}
+
+.tend .nav1 .choice a{
+    font-size: 16px;
+    color: #444;
+    line-height: 36px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    
+    
+}
+
+.tend .nav1 .apply-btn{
+    position: absolute;
+    right: 250px;
+    top: 250px;
+    width: 178px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: none;
+    background-color: #82ad06;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.tend .nav1 .choice:hover a{
+    color: #222;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
+.tend .content .left{
+    width: 646px;
+    height: 1999px;
+    background-color: #fff;
+}
+
+.tend .content .right{
+    width: 280px;
+    height: 1999px;
+    background-color: rgb(247,247,247);
+}
+
+.tend .content .left .list{
+    width: 100%;
+    height: 291px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.tend .content .left .list-e{
+    margin: auto;
+    margin-top: 40px;
+    width: 550px;
+    height: 210px;
+    background-color: #fff;
+}
+
+.tend .content .list-e .list-e-1{
+    width: 550px;
+    height: 60px;
+    position: relative;
+}
+
+.tend .content .list-e-1 a:hover {
+    color: rgb(139, 147, 195);
+}
+
+.tend .content .list-e-1 .pic{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.tend .list-e-1 .pic em{
+    position: absolute;
+    left: 42px;
+    top: 44px;
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+    background: url(../img/v.png)
+}
+
+.tend .list-e-1 .pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.tend .list-e-1 .attention{
+    display: inline-block;
+    width: 78px;
+    height: 35px;
+    background: #759b00;
+    color: #fff;
+    float: right;
+}
+
+.tend .list-e-1 .attention b{
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0 3px 0 5px;
+}
+
+.tend .list-e-1 .attention span{
+    font-family: arial;
+    font-size: 16px;
+}
+
+.tend .list-e-1 h3{
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+}
+
+.tend .list-e-1 h3 .name{
+    font-size: 16px;
+    color: #333; 
+
+}
+
+.tend .list-e-1 h3 .dislike{
+    position: absolute;
+    right: -296px;
+    top:8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #b6b6b6;
+}
+
+.tend .list-e-1 .describ{
+    width: 360px;
+    height: 22px;
+    position: absolute;
+    top:38px;
+    left: 80px;
+}
+
+.tend .list-e-1 .describ li{
+    border:1px solid #bfbfbf;
+    padding: 2px;
+}
+
+.tend .list-e-1 .describ li a{
+    color: #444;
+}
+
+.tend .content .list-e .list-e-2{
+    width: 550px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.tend .content .list-e-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tend .content .list-e-2 li{
+    width: 130px;
+    height: 130px;
+}
+
+
+.tend .right .guess li{
+    display: block;
+    width: 280px;
+    height: 44px;
+    text-align: center;
+    
+}
+
+.tend .right .guess li:first-of-type{
+    background-color: rgb(124,124,124);
+    color: #fff;
+}
+
+.tend .right .guess li:first-of-type>a{
+    color: #fff;
+}
+
+.tend .right .guess li>a{
+   display: inline-block;
+   line-height: 44px;
+}
+
+.tend .right .guess .type:hover{
+    background-color: #fff;
+}
